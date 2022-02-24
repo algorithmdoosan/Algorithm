@@ -1,5 +1,5 @@
 # Algorithm
-1. Stack/Queue
+1. Stack/Queue - 1158, 2504
 2. Graph/Tree
 3. DFS/BFS
 4. DP/Greedy
@@ -11,4 +11,4 @@ Rule
 3. 문제 푼 코드는 전날까지 commit - 한 문제당 늦을시 1일 당 3000won
 
 1회차
-문제 - 백준 1158, 2504 -> 
+문제 - 백준 1158, 2504 -> Stack, Queue 구현하여 풀기
