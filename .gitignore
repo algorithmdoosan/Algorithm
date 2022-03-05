@@ -35,12 +35,15 @@
 *.exe
 *.out
 *.app
+*.exec
 
 ### macOS ###
 # General
 .DS_Store
 .AppleDouble
 .LSOverride
+*.dSYM
+*.vscode
 
 # Icon must end with two \r
 Icon
