@@ -55,11 +55,13 @@ int solution(const string& str)
 		{
 			temp *= 2;
 			st.push(str[i]);
+            cout << "index : " << i  << "temp : "<< temp << endl;
 		}
 		else if (str[i] == '[')
 		{
 			temp *= 3;
 			st.push(str[i]);
+            cout << "index : " << i  << "temp : " << temp << endl;
 		}
 		else if (str[i] == ')' && (st.empty() || st.top() != '('))
 		{
@@ -73,15 +75,19 @@ int solution(const string& str)
 		}
 		else if (str[i] == ')')
 		{
-			if (str[i - 1] == '(')
+			if (str[i - 1] == '(') {
 				answer += temp;
+                cout << answer << endl;
+            }
 			st.pop();
 			temp /= 2;
 		}
 		else if (str[i] == ']')
 		{
-			if (str[i - 1] == '[')
+			if (str[i - 1] == '[') {
 				answer += temp;
+                cout << answer << endl;
+            }
 			st.pop();
 			temp /= 3;
 		}
